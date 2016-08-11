@@ -6771,7 +6771,8 @@ button.close {
 
 /*<!--slider-->*/
 .jk-slider{
-    width:100%;
+    width:60%; /* prueba */
+    margin: 0 auto;
 }
 /*          Hero Headers        */
 /********************************/
@@ -6854,4 +6855,9 @@ h4 {
 
 .wrapper {
     text-align: center;
+}
+
+#footer div {
+  margin: 0 auto;
+  text-align: center;
 }
