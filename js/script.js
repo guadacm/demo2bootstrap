@@ -16,7 +16,7 @@ $(function(){
     });
 
     // -- Carga cuando se hace click en algun item del menu
-    $(document).on("click","#menu-principal li > a",function(e){
+    $(document).on("click","#menu-principal li .click",function(e){
         e.preventDefault();
         var url = $(this).attr("href");
 
@@ -25,6 +25,7 @@ $(function(){
             $("#principal").html(result);
         });
     });
+
 
     // $(document).on("click", "#buscar", function(e){
     //     e.preventDefault();
